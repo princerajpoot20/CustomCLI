@@ -1,0 +1,37 @@
+{
+  "generate": {
+    "description": "Generates documentation from an AsyncAPI file.",
+    "parameters": [
+      {
+        "name": "file",
+        "description": "The path to the AsyncAPI file."
+      },
+      {
+        "name": "output",
+        "description": "The path where to save generated files."
+      }
+    ]
+  },
+  "validate": {
+    "description": "Validates an AsyncAPI file.",
+    "parameters": [
+      {
+        "name": "file",
+        "description": "The path to the AsyncAPI file."
+      }
+    ]
+  },
+  "subscribe": {
+    "description": "Subscribes to a topic in an AsyncAPI file.",
+    "parameters": [
+      {
+        "name": "topic",
+        "description": "The topic to subscribe to."
+      },
+      {
+        "name": "file",
+        "description": "The path to the AsyncAPI file."
+      }
+    ]
+  }
+}
