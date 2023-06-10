@@ -1,8 +1,11 @@
 # Commands
 - `config context`: Set or get the current context
-- `generate`: Generate has two subcategory: 1. fromTemplate, 2. models.
-  - sample line 1
-  - sample line 2
+- `generate`: 
+``` 
+Generate has two subcategory: 1. fromTemplate, 2. models.
+   sample line 1
+   sample line 2
+```
 - `generate fromTemplate`: Generate code from a template
 - `generate models`: Generate models from a database schema
 - `start studio`: Start the development studio
